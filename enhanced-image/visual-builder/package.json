@@ -1,0 +1,28 @@
+{
+  "name": "enhanced-image-module",
+  "version": "1.0.0",
+  "description": "Enhanced Image module for Divi 5 with optional Caption & Description support",
+  "main": "build/enhanced-image-module.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js --progress",
+    "start": "webpack --config webpack.config.js --watch --progress"
+  },
+  "keywords": [
+    "divi",
+    "divi5",
+    "module",
+    "image",
+    "caption",
+    "description"
+  ],
+  "author": "Dave Rutlidge",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

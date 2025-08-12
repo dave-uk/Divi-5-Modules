@@ -1,0 +1,23 @@
+/* Enhanced Image Module Styles */
+
+.enhanced_image_module {}
+
+.enhanced_image_module_inner { margin: 0; padding: 0; }
+
+.enhanced_image_module_image { max-width: 100%; height: auto; display: block; }
+
+.enhanced_image_module_link { display: block; text-decoration: none; }
+
+.enhanced_image_module_placeholder { min-height: 200px; display: flex; align-items: center; justify-content: center; background-color: #f9f9f9; border: 2px dashed #ccc; border-radius: 8px; margin: 20px 0; }
+.enhanced_image_module_placeholder > div { text-align: center; color: #666; }
+.enhanced_image_module_placeholder > div > div:first-child { font-size: 24px; margin-bottom: 10px; }
+
+.enhanced_image_module_caption { margin-top: 0.5em; font-style: italic; text-align: center; }
+
+.enhanced_image_module_description { margin-top: 1em; line-height: 1.6; }
+
+@media (max-width: 768px) {
+  .enhanced_image_module_caption,
+  .enhanced_image_module_description { margin-top: 0.75em; }
+  .enhanced_image_module_placeholder { min-height: 150px; margin: 15px 0; }
+}
