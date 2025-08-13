@@ -3,7 +3,7 @@
 Plugin Name: Enhanced Image Module
 Plugin URI:
 Description: Enhanced Image module for Divi 5 with optional Caption & Description support, full design controls, and safe HTML support.
-Version:     1.0.0
+Version:     1.0.1
 Author:      Dave Rutlidge
 Author URI:  https://rutlidge.com/
 License:     GPL2
@@ -29,7 +29,7 @@ function enhanced_image_module_enqueue_styles() {
         'enhanced-image-module',
         ENHANCED_IMAGE_MODULE_URL . 'assets/css/enhanced-image.css',
         array(),
-        '1.0.0'
+        '1.0.1'
     );
 }
 add_action( 'wp_enqueue_scripts', 'enhanced_image_module_enqueue_styles' );
@@ -42,7 +42,7 @@ function enhanced_image_module_enqueue_visual_builder_assets() {
         \ET\Builder\VisualBuilder\Assets\PackageBuildManager::register_package_build(
             [
                 'name'    => 'enhanced-image-module-visual-builder',
-                'version' => '1.0.0',
+                'version' => '1.0.1',
                 'script'  => [
                     'src'                => ENHANCED_IMAGE_MODULE_URL . 'visual-builder/build/enhanced-image-module.js',
                     'deps'               => [

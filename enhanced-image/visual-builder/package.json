@@ -1,6 +1,6 @@
 {
   "name": "enhanced-image-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enhanced Image module for Divi 5 with optional Caption & Description support",
   "main": "build/enhanced-image-module.js",
   "scripts": {
